@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/landing.css" />
+    <title>KGEC-Robotics-Society</title>
+  </head>
+
+  <body class="light-theme" id="body">
+    <button class="toggle-btn" id="toggle-btn">
+      <i class="fas fa-moon" id="dark-light"></i>
+    </button>
+    <!-- <button class="toggle light" id="light"><i class="far fa-moon"></i></button> -->
+    <header class="header">
+      <div class="navbar container">
+        <div class="logo">
+          <span>KGEC-RS</span>
+        </div>
+        <nav class="nav" id="nav">
+          <ul class="navbar-links" id="navbar-links">
+            <li><a href="#" onclick="navScroll('home')">Home</a></li>
+            <li><a href="#" onclick="navScroll('about')">About</a></li>
+            <li><a href="#" onclick="navScroll('techfest')">Techfest</a></li>
+            <li><a href="#" onclick="navScroll('projects')">Projects</a></li>
+            <li><a href="#" onclick="navScroll('contact')">Contact</a></li>
+            <li><a href="#" onclick="navScroll('events')">Events</a></li>
+          </ul>
+        </nav>
+        <div class="nav-toggle" id="nav-toggle">
+          <span class="bar first"></span>
+          <span class="bar second"></span>
+          <span class="bar third"></span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- EVERY section SHOULD HAVE A min-height of 100vh -->
+
+      <!-- /// HOME PAGE /// -->
+
+      <section class="hero-section" id="home">
+        <div class="container hero">
+          <div class="hero-content">
+            <h1 class="hero-title">KGEC<br />Robotics Society</h1>
+            <p class="hero-description">
+              The place where robots shake hand with humans
+            </p>
+            <div class="cta">
+              <a class="btn cta-btn" href="#">About us</a>
+              <a class="btn cta-btn" href="#">Contact us</a>
+            </div>
+          </div>
+          <img
+            class="hero-img"
+            src="/Static_Design/assets/landing png.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!-- /// ABOUT PAGE /// -->
+
+      <section class="about-section" id="about">
+        <div class="bg-bubbles">
+          <span class="bubble one"></span>
+          <span class="bubble two"></span>
+          <span class="bubble three"></span>
+          <span class="bubble four"></span>
+        </div>
+        <div class="container about">
+          <div class="about-content">
+            <h2 class="about-title">About Us</h2>
+            <p class="para-one">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+              quisquam quas, repellat esse laboriosam eos ipsam voluptates iusto
+              sint maiores voluptatibus itaque. Laborum dolore ducimus ullam
+              neque explicabo sed deleniti quis obcaecati nostrum, atque, nam
+              dolorem.
+            </p>
+            <p class="para-two">
+              Aut fugiat eaque nobis quos? A repellendus cumque consectetur
+              incidunt voluptas eos ea Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Eligendi accusamus maxime eius quam?
+            </p>
+          </div>
+          <div class="about-img">
+            <span class="back"></span>
+            <span class="front"></span>
+            <img
+              src="/Static_Design/assets/BOT-imgs/purple/ideaBOT.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- /// TECHFEST PAGE /// -->
+
+      <section class="techfest-section" id="techfest"></section>
+
+      <!-- /// PROJECT PAGE /// -->
+
+      <section class="project-section" id="project"></section>
+
+      <!-- /// CONTACT PAGE /// -->
+
+      <section class="contact-section" id="contact"></section>
+
+      <!-- /// EVENETS PAGE /// -->
+
+      <section class="events-section" id="events"></section>
+    </main>
+    <div class="intro">
+      <div class="intro-text">
+        <h1 class="hide">
+          <span class="text">KGEC</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">ROBOTICS</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">SOCIETY</span>
+        </h1>
+      </div>
+    </div>
+    <div class="slider"></div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+      integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript" src="/Static_Design/JS/main.js"></script>
+  </body>
+</html>

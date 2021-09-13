@@ -1,0 +1,21 @@
+main- 
+	landingpage     -> sudip
+	about page 	-> sudip
+	video section & motto -> sorbajit
+	what-we-do      -> me
+	project section -> sneha
+	techfest	-> 
+	notice		->  arnab
+	get-in-touch 	->  arnab
+	footer		-> sorbajit
+
+domain- 
+	landingpage     -> 
+	about page 	-> 
+	faculty-pages	->
+	get-in-touch 	->
+	footer		->
+
+
+components-
+	contactpages	->
