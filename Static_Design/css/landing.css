@@ -391,7 +391,7 @@ body.dark-theme .about::before {
 }
 
 .about p {
-  color: var(--clr-medium-light);
+  color: var(--clr-white);
   line-height: 1.6;
 }
 
@@ -685,9 +685,8 @@ body.dark-theme .about::before {
 
   .toggle-btn {
     padding: 8px;
-    padding-right: 14px;
     top: 80px;
-    right: -10px;
+    right: -2px;
   }
 
   .cta-btn {
@@ -744,7 +743,7 @@ body.dark-theme .about::before {
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1900px) {
   :root {
     --gen-padding: 30px 60px;
   }
